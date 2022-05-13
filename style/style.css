@@ -1,0 +1,60 @@
+*{
+    font-family: 'Rubik', sans-serif;}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url(../assets/background-tictactoe.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    box-sizing: border-box;
+}
+
+header h1{
+    color: white;
+    font-size: 28pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+#game-section{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#block{
+    display: inline-block;
+    margin: 3px;
+    width: 150px;
+    height: 150px;
+    background-image: radial-gradient(#ffffff7c, #8d8d8d7e);
+    border: 3px solid rgb(209, 209, 209);
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 5px;
+}
+
+#block:hover{
+    transform: scale(95%);
+    background-image: radial-gradient(#dedede7f, #6666667b);
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+
+footer a{
+    color: white;
+    font-size: 16pt;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+
+footer a:hover{
+    color: #124410;
+}
+
+footer{
+    text-align: center;
+}
